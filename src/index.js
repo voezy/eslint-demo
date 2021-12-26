@@ -1,3 +1,6 @@
+import './condition-same-block';
+import './var';
+
 const animals = ['cat', 'dog'];
 
 const findAnimal = (animal) => {
