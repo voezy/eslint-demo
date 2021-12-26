@@ -1,3 +1,7 @@
+import './condition-same-block';
+import './var';
+import Animal from './new-feature-syntax';
+
 const animals = ['cat', 'dog'];
 
 const findAnimal = (animal) => {
@@ -5,3 +9,5 @@ const findAnimal = (animal) => {
 };
 
 findAnimal('cat');
+
+export { Animal as MyAnimal };
