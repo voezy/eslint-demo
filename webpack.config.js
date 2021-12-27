@@ -7,5 +7,14 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].min.js',
   },
+  module: {
+    rules: [
+      {
+        loader: 'babel-loader',
+        test: /.jsx?$/,
+        exclude: /node_modules/
+      }
+    ],
+  },
   plugins: [new ESLintPlugin()],
 };
