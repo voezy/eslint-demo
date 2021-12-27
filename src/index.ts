@@ -4,7 +4,7 @@ import Animal from './new-feature-syntax';
 
 const animals = ['cat', 'dog'];
 
-const findAnimal = (animal) => {
+const findAnimal = (animal: string) => {
   console.log(`${animal} ${animals.includes(animal) ? 'exist.' : 'does not exist.' }`);
 };
 

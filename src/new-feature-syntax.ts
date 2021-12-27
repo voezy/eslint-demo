@@ -5,6 +5,8 @@ class Animal {
   // es2022, private field
   #address = 'Earth'
 
+  speak: () => void;
+
   constructor() {
     this.speak = () => console.log(this.name);
   }
